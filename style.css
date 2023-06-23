@@ -1,0 +1,1128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 540px) {
+    main{
+        /* display: flex; */
+        display: grid;
+        justify-content: center;
+        place-content: center;
+        place-items: center;
+        /* margin: auto; */
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(53, 119, 53);
+        
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(32, 32, 32);
+        width: 90%;
+        height: 90vh;
+        border-radius: 30px;
+        
+    }
+
+    .signupdiv{
+        display: flex;
+        margin: 50px 0 40px 0;
+    }
+    
+    
+    .backlog{
+        /*does not work with internet explorer */
+        /* all: unset; */ 
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        border-color: rgb(55, 55, 56);
+        border-radius: 5px;
+        cursor: pointer;
+        padding-left: 9px;
+        margin-left: 10px;
+        
+    }
+    
+
+    .SignUph2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+    
+    .signupmessage{
+        color: aliceblue;
+        margin: 0 5px 20px 5px;
+
+    }
+
+    .signupmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 5px 0 13px;
+
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        /* margin: ; */
+        /* background-color: aliceblue; */
+    }
+    .google{
+        background-color: rgb(58, 57, 57);
+        width: 45%;
+        height: 220%;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+    }
+
+
+    .apple{
+        background-color: rgb(37, 37, 37);
+        width: 45%;
+        height: 220%;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+    }
+
+
+
+    .formdiv{
+        margin-top: 50px;
+    }
+
+    .divform{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+    }
+
+    .signinput{
+        width: 92%;
+        height: 2.5em;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        outline: none;
+        margin: 0 0 30px 0;
+    }
+
+    .createbtn{
+        margin: 0 0 0 0;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        width: 92%;
+        height: 3.3em;
+        border-radius: 15px;
+
+    }
+
+    
+    .formspan{
+        /* background-color: rgb(88, 167, 236); */
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 5px;
+        
+        
+    }
+
+    .acntspan{
+        text-align: center;
+        color: rgb(116, 115, 115);
+        font-family: 'Nunito', sans-serif;
+        margin: 20px 0 0 0;
+    }
+
+    .login{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    ::placeholder{
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+
+    /* login page */
+
+    .signbackbtn{
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        /* border: 10px ; */
+        border-color: rgb(55, 55, 56);
+        border-radius: 5px;
+        cursor: pointer;
+        padding-left: 9px;
+        margin-left: 10px;  
+    }
+
+    .logindiv{
+        display: flex;
+        margin: 50px 0 50px 0;
+    }
+    
+    .loginh2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+
+    .loginmessage{
+        color: aliceblue;
+        margin: 0 5px 50px 5px;
+    }
+
+    .loginmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 5px 0 13px;
+    }
+
+    .loginlogo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        /* background-color: aliceblue; */
+
+    }
+    
+    .loginformdiv{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+        
+    }
+
+    .loginspan{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        font-size: smaller;
+        margin: 0 0 0 5px;
+    }
+
+    .loginput{
+        display: block;
+        width: 92%;
+        height: 3.3em;
+        margin: 0 0 20px 0;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        outline: none;
+    }
+
+
+    .loginbtn{
+        display: block;
+        width: 92%;
+        height: 3.3em;
+        margin: 20px 0 0 0;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        border-radius: 15px;
+    }
+
+    .signup{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .forgotpass{
+        display: grid;
+        /* background-color: rgb(5, 12, 19); */
+        justify-content: center;
+        place-items: center;
+
+    }
+
+    .forgotpass a{
+        text-decoration: none;
+    }
+
+    .forgotpasswrd{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+
+    }
+}
+
+@media screen and (max-width: 719px) and (min-width: 541px) {
+    main{
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        margin: auto;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(21, 59, 17);
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(32, 32, 32);
+        width: 600px;
+        height: 85vh;
+        border-radius: 30px;
+        
+    }
+
+    .signupdiv{
+        display: flex;
+        margin: 50px 0 20px 0;
+
+    }
+
+    .backlog{
+        /*does not work with internet explorer */
+        /* all: unset; */ 
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        border-color: rgb(55, 55, 56);
+        border-radius: 5px;
+        cursor: pointer;
+        padding-left: 9px;
+        margin-left: 10px;
+    }
+
+    .SignUph2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+
+    .signupmessage{
+        display: grid;
+        /* place-items: center; */
+        background-color: rgb(15, 26, 36);
+        margin: 0 5px -10px 5px;
+        /* margin: 0 0 20px 0; */
+    }
+
+    .signupmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 5px 0 6px;
+
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* height: 100%; */
+        /* background-color: aliceblue; */
+    }
+
+    .google{
+        background-color: rgb(58, 57, 57);
+        width: 48%;
+        height: 50px;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+    }
+
+
+    .apple{
+        background-color: rgb(37, 37, 37);
+        width: 48%;
+        height: 50px;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+    }
+
+    .formdiv{
+        margin-top: 50px;
+    }
+
+    .divform{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+    }
+
+    .signinput{
+        width: 92%;
+        height: 2.5em;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        outline: none;
+        margin: 0 0 30px 0;
+    }
+
+    .createbtn{
+        margin: 0 0 0 0;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        width: 92%;
+        height: 3.3em;
+        border-radius: 15px;
+    }
+
+    .formspan{
+        /* background-color: rgb(88, 167, 236); */
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 5px;
+        
+        
+    }
+
+    .acntspan{
+        text-align: center;
+        color: rgb(116, 115, 115);
+        font-family: 'Nunito', sans-serif;
+        margin: 20px 0 0 0;
+    }
+
+    .login{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    ::placeholder{
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+
+    /* login page */
+    .signbackbtn{
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        /* border: 10px ; */
+        border-color: rgb(55, 55, 56);
+        border-radius: 5px;
+        cursor: pointer;
+        padding-left: 9px;
+        margin-left: 10px;  
+    }
+
+    .logindiv{
+        display: flex;
+        margin: 50px 0 50px 0;
+    }
+
+    .loginh2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+
+    .loginmessage{
+        color: aliceblue;
+        margin: 0 5px 50px 5px;
+    }
+
+    .loginmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 5px 0 20px;
+    }
+
+    .loginlogo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* height: 100%; */
+        /* background-color: aliceblue; */
+
+    }
+    
+    .loginformdiv{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+        
+    }
+
+    .loginspan{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        font-size: smaller;
+        margin: 0 0 0 5px;
+    }
+
+    .loginput{
+        display: block;
+        width: 92%;
+        height: 3.3em;
+        margin: 0 0 20px 0;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        outline: none;
+    }
+
+    .loginbtn{
+        display: block;
+        width: 92%;
+        height: 3.3em;
+        margin: 20px 0 0 0;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        border-radius: 15px;
+    }
+
+    .signup{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .forgotpass{
+        display: grid;
+        /* background-color: rgb(5, 12, 19); */
+        justify-content: center;
+        place-items: center;
+
+    }
+
+    .forgotpass a{
+        text-decoration: none;
+    }
+
+    .forgotpasswrd{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+
+    }
+ 
+}
+
+@media screen and (max-width:725px) and (min-width: 720px) {
+    main{
+        display: grid;
+        justify-content: center;
+        place-content: center;
+        place-items: center;
+        margin: auto;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(98, 245, 98);
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(32, 32, 32);
+        width: 45%;
+        height: 95vh;
+        border-radius: 30px;
+        
+    }
+
+    .signupdiv{
+        display: flex;
+        margin: 30px 0 20px 0;
+    }
+    
+    .backlog{
+        /*does not work with internet explorer */
+        /* all: unset; */ 
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        border-color: rgb(55, 55, 56);
+        border-radius: 5px;
+        cursor: pointer;
+        padding-left: 9px;
+        margin-left: 10px;   
+    }
+
+    .SignUph2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+    
+    .signupmessage{
+        color: aliceblue;
+        margin: 0 5px -10% 5px;
+        background-color: rgb(32, 32, 32);
+
+    }
+
+    .signupmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 5px 0 5px;
+        font-size: small;
+
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* background-color: aliceblue; */
+    }
+
+    .google{
+        background-color: rgb(58, 57, 57);
+        width: 48%;
+        height: 45px;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+    }
+
+
+    .apple{
+        background-color: rgb(37, 37, 37);
+        width: 48%;
+        height: 45x;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+    }
+
+    .formdiv{
+        margin-top: 50px;
+    }
+
+    .divform{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+    }
+    .signinput{
+        width: 92%;
+        height: 2.5em;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        outline: none;
+        margin: 0 0 20px 0;
+    }
+
+    .createbtn{
+        margin: 0 0 0 0;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        width: 92%;
+        height: 3.3em;
+        border-radius: 15px;
+        outline: none;
+    }
+
+    .formspan{
+        /* background-color: rgb(88, 167, 236); */
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 5px;
+        font-size: smaller;
+    }
+
+    .acntspan{
+        text-align: center;
+        color: rgb(116, 115, 115);
+        font-family: 'Nunito', sans-serif;
+        margin: 20px 0 0 0;
+    }
+
+    .login{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    ::placeholder{
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+     /* login page */
+     .signbackbtn{
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        /* border: 10px ; */
+        border-color: rgb(55, 55, 56);
+        border-radius: 5px;
+        cursor: pointer;
+        padding-left: 9px;
+        margin-left: 10px;  
+    }
+
+    .logindiv{
+        display: flex;
+        margin: 30px 0 20px 0;
+    }
+
+    .loginh2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+
+    .loginmessage{
+        color: aliceblue;
+        margin: 0 5px -10% 5px;
+    }
+
+    .loginmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        /* margin: 0 5px 0 20px; */
+        margin: 0 5px 0 5px;
+        font-size: small;
+    }
+
+    .loginlogo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        /* background-color: aliceblue; */
+
+    }
+    
+    .loginformdiv{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+        
+    }
+
+    .loginspan{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        font-size: smaller;
+        margin: 0 0 0 5px;
+    }
+
+    .loginput{
+        display: block;
+        width: 92%;
+        height: 2.5em;
+        margin: 0 0 20px 0;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        outline: none;
+    }
+
+    .loginbtn{
+        display: block;
+        width: 92%;
+        height: 3.3em;
+        margin: 20px 0 0 0;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        border-radius: 15px;
+    }
+
+    .signup{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .forgotpass{
+        display: grid;
+        /* background-color: rgb(5, 12, 19); */
+        justify-content: center;
+        place-items: center;
+
+    }
+
+    .forgotpass a{
+        text-decoration: none;
+    }
+
+    .forgotpasswrd{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+
+    }
+}
+
+@media screen and (min-width: 726px){
+    main{
+        display: grid;
+        justify-content: center;
+        place-content: center;
+        place-items: center;
+        margin: auto;
+        width: 100%;
+        height: 100vh;
+        /* background-color: rgb(98, 245, 98); */
+        background-color: rgb(53, 53, 53);
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(32, 32, 32);
+        width: 400px;
+        height: 80vh;
+        border-radius: 30px;
+        
+    }
+
+    .signupdiv{
+        display: flex;
+        margin: 30px 0 20px 0;
+    }
+    
+    .backlog{
+        /*does not work with internet explorer */
+        /* all: unset; */ 
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        border-color: rgb(37, 37, 37);
+        border-radius: 5px;
+        cursor: pointer;
+        padding-left: 9px;
+        margin-left: 10px;   
+    }
+
+    .backlog a{
+        color: rgb(63, 63, 65);
+    }
+
+    .SignUph2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+    
+    .signupmessage{
+        color: aliceblue;
+        margin: 0 5px -5% 5px;
+        background-color: rgb(32, 32, 32);
+
+    }
+
+    .signupmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 5px 0 5px;
+        font-size: small;
+
+    }
+
+    .logo{
+        display: grid;
+        grid-template-areas: 
+        'google apple';
+        justify-content: space-around;
+        width: 100%;
+        /* background-color: aliceblue; */
+    }
+
+    .google{
+        grid-area: google;
+        /* background-color: rgb(32, 32, 32); */
+        border-style: solid;
+        border-color: rgb(37, 37, 37);
+        width: 110px;
+        height: 45px;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+
+    .google a{
+        display: flex;
+        place-content: center;
+        text-decoration: none;
+        margin-top: 7%;
+        color: rgb(63, 63, 65);
+    }
+
+    .apple{
+        grid-area: apple;
+        /* background-color: rgb(37, 37, 37); */
+        border-style: solid;
+        /* border-color: rgb(37, 37, 37); */
+        border-color: rgb(18, 48, 15);
+        width: 110px;
+        height: 45x;
+        margin: 5px 0 0 0;
+        border-radius: 15px;
+        font-size: 25px;
+    }
+
+    .apple a{
+        display: flex;
+        place-content: center;
+        text-decoration: none;
+        margin-top: 7%;
+        color: rgb(63, 63, 65);
+        
+    }
+
+    .formdiv{
+        margin-top: 30px;
+    }
+
+    .divform{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+    }
+    .signinput{
+        width: 92%;
+        height: 2.3em;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        outline: none;
+        margin: 0 0 5% 0;
+    }
+
+    .createbtn{
+        margin: 10px 0 0 0;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        width: 92%;
+        height: 2.5em;
+        border-radius: 15px;
+        border-style: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .createbtn:hover{
+        background-color: rgb(53, 119, 53);
+        transition: 0.3s ease-in;
+        
+    }
+
+    .formspan{
+        /* background-color: rgb(88, 167, 236); */
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 5px;
+        font-size: 70%;
+    }
+
+    .acntspan{
+        text-align: center;
+        color: rgb(116, 115, 115);
+        font-family: 'Nunito', sans-serif;
+        margin: 10px 0 20px 0;
+
+    }
+    .acntspan a{
+        text-decoration: none;
+    }
+
+    .login{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+    ::placeholder{
+        font-family: 'Nunito', sans-serif;
+
+    }
+
+      /* login page */
+      .signbackbtn{
+        background: none;
+        color: aliceblue;
+        border-style: solid;
+        outline: none;
+        /* border: 10px ; */
+        border-color: rgb(55, 55, 56);
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 5px 0 0 9px;
+        margin: 0 0 0 10px;  
+    }
+
+    .signbackbtn a{
+        color: rgb(63, 63, 65);
+    }
+
+    .logindiv{
+        display: flex;
+        margin: 30px 0 20px 0;
+    }
+
+    .loginh2{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        margin: 0 0 0 30px;
+    }
+
+    .loginmessage{
+        color: aliceblue;
+        margin: 0 5px -10% 5px;
+    }
+
+    .loginmessage p{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        /* margin: 0 5px 0 20px; */
+        margin: 0 5px 0 5px;
+        font-size: small;
+    }
+
+    .loginlogo{
+        display: grid;
+        grid-template-areas: 
+        'google apple';
+        justify-content: space-around;
+        width: 100%;
+        /* background-color: aliceblue; */
+
+    }
+    
+    .loginformdiv{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 13px;
+        
+    }
+
+    .loginspan{
+        color: aliceblue;
+        font-family: 'Nunito', sans-serif;
+        font-size: smaller;
+        margin: 0 0 0 5px;
+    }
+
+    .loginput{
+        display: block;
+        width: 92%;
+        height: 2.3em;
+        margin: 0 0 20px 0;
+        border-radius: 15px;
+        border-color: rgb(40, 182, 27);
+        border-style: solid;
+    }
+
+    .loginbtn{
+        display: block;
+        width: 92%;
+        height: 2.5em;
+        margin: 20px 0 0 0;
+        background-color: rgb(40, 182, 27);
+        color: aliceblue;
+        border-radius: 15px;
+        border-style: none;
+        cursor: pointer;
+    }
+
+    .loginbtn:hover{
+        background-color: rgb(21, 59, 17);
+        transition: 0.3s ease-in;
+    }
+    .signup{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+    .forgotpass{
+        display: grid;
+        /* background-color: rgb(5, 12, 19); */
+        justify-content: center;
+        place-items: center;
+
+    }
+
+    .forgotpass a{
+        text-decoration: none;
+    }
+
+    .forgotpasswrd{
+        all: unset;
+        cursor: pointer;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        margin-top: -50%;
+    }
+
+    .forgotpasswrd:hover{
+        color: rgb(74, 74, 75);
+        transition: 0.3s ease-in-out;
+    }
+
+    .signup:hover{
+        color:rgb(74, 74, 75);
+        transition: 0.3s ease-in-out;
+    }
+
+
+    
+}
